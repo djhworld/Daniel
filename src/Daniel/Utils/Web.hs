@@ -6,7 +6,7 @@ module Daniel.Utils.Web (
 )
 where
 
-import Network.HTTP (simpleHTTP, getRequest, getHeaders)
+import Network.HTTP (simpleHTTP, getRequest, getHeaders, hdrName, hdrValue)
 import Data.Maybe (fromJust)
 import Network.Curl.Download
 import Text.HTML.TagSoup
