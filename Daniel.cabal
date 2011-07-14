@@ -18,6 +18,7 @@ Library
   -- Modules exported by the library.
   Exposed-modules:
     Daniel.Utils.Web,
+    Daniel.Utils.Web.URL,
     Daniel.Utils.List,
     Daniel.Utils.String
 
